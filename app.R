@@ -1,8 +1,11 @@
 source("helpers.R")
 counties <- readRDS("data/counties.rds")
+
+install.packages("maps")
+install.packages("mapproj")
+install.packages("shiny")
 library(maps)
 library(mapproj)
-
 library(shiny)
 
 # User interface ----
